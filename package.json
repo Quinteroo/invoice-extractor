@@ -30,11 +30,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuusuario/useless-calculator"
+    "url": "https://github.com/Quinteroo/invoice-extractor"
   },
-  "homepage": "https://github.com/tuusuario/useless-calculator#readme",
+  "homepage": "https://github.com/Quinteroo/invoice-extractor#readme",
   "bugs": {
-    "url": "https://github.com/tuusuario/useless-calculator/issues"
+    "url": "https://github.com/Quinteroo/invoice-extractor/issues"
   },
   "files": [
   "bin",
