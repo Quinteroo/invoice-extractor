@@ -1,0 +1,47 @@
+
+
+{
+  "name": "invoice-extractor",
+  "version": "1.0.0",
+  "description" : "Automate and extract information from hundreds of invoices on pdf to a csv file with a single script",
+  "main": "./dist/index.js",
+  "bin": {
+  "procesador-facturas": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "supplierOne": "node ./dist/supplier/supplierOne.js"
+  },
+  "keywords": ["fs", "pdf","pdf-parse","excell", "csv", "invoice"],
+  "author": {
+    "name": "Miguel Quintero - qugodev",
+    "url": "https://www.linkedin.com/in/quinteroo/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "commander": "^13.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quinteroo/invoice-extractor"
+  },
+  "homepage": "https://github.com/Quinteroo/invoice-extractor#readme",
+  "bugs": {
+    "url": "https://github.com/Quinteroo/invoice-extractor/issues"
+  },
+  "files": [
+  "bin",
+  "templates",
+  "dist",
+  "readme.md",
+  "package.json"
+]
+}
+
