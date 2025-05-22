@@ -7,9 +7,9 @@ const supplierOne:Supplier ={
     invoiceLine: "ALBARAN/FACTURA",
     invoice:/[0-9]{8}/,
     dateLine: "FECHA",
-    date: /[0-9/]{2}[0-9/]{2}[0-9/]{2}/,
+    date: /\b\d{2}\/\d{2}\/\d{4}\b/,
     totalLine:"TOTAL FACTURA",
-    total: /\d+,\d{2}/,
+    total: /\d+,\d{2}€/,
     currency:""
 
 }

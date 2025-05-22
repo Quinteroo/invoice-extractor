@@ -36,8 +36,8 @@ async function processInvoices(supplier:Supplier) {
 
             const nameS = supplier.name;
             const factura = facturaLine.match(supplier.invoice)[0] || "N/A";
-            const fecha = fechaLine.match(supplier.date).toString().replaceAll("/", "-") || "N/A";
-            const total = totalLine.match(supplier.total)[0] || "N/A";
+            const fecha = fechaLine.match(supplier.date)[0].replaceAll("/", "-") || "N/A";
+            const total = totalLine.match(supplier.total)[0].replaceAll(",", ".") || "N/A";
 
             info.push({ nameS, factura, fecha, total });
 
