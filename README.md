@@ -37,7 +37,7 @@ The source code is developed in TypeScript. However, you can modify it as you wi
 Setting up a new project is quite simple with the invoice-extractor CLI. With npm installed, you can create a new invoice-extractor project with the following commands in your OS terminal:
 
 >```bash
->npX nombre-proyecto-cli init
+>npx invoice-extractor init
 >
 
 
@@ -50,7 +50,7 @@ Setting up a new project is quite simple with the invoice-extractor CLI. With np
 
 2. Run the following command in terminal:
 
-   > `npx nombre-cli init`
+   > `npx invoice-extractor init`
 
 >[!IMPORTANT]
 >Don't forget to install your project's dependencies.
