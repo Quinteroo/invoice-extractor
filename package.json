@@ -2,7 +2,7 @@
 
 {
   "name": "invoice-extractor",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description" : "Automate and extract information from hundreds of invoices on pdf to a csv file with a single script",
   "main": "./dist/index.js",
   "bin": {
