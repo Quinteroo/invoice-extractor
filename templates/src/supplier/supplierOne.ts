@@ -9,7 +9,7 @@ const supplierOne:Supplier ={
     dateLine: "FECHA",
     date: /\b\d{2}\/\d{2}\/\d{4}\b/,
     totalLine:"TOTAL FACTURA",
-    total: /\d+,\d{2}€/,
+    total: /\d+,\d{2}/,
     currency:""
 
 }
